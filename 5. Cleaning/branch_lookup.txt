@@ -1,0 +1,13 @@
+branch_id|branch_name|state|region
+BR100|Downtown Branch|WA|West
+BR101|Uptown Branch|CA|West
+BR102|Westside Branch|PA|South
+BR103|Eastgate Branch|IL|South
+BR104|Northpark Branch|MA|West
+BR105|Southridge Branch|AZ|South
+BR106|Lakeview Branch|MO|Northeast
+BR107|Riverside Branch|TX|West
+BR108|Hillcrest Branch|NC|Northeast
+BR109|Fairview Branch|CA|South
+BR110|Midtown Branch|IL|Midwest
+BR111|Old Town Branch|NJ|West
