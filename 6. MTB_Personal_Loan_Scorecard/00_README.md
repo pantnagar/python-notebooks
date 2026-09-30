@@ -3,8 +3,8 @@
 An end-to-end, industry-style credit risk scorecard project simulating the work
 of a Credit Risk Analyst at a third-party analytics vendor servicing an
 Australian retail bank ("Meridian Trust Bank").
-
-**Pipeline:** SQL Server (SSMS) → Python/Jupyter (Pandas) → Excel → Power BI
+****
+**Pipeline:** SQLb Server (SSMS) → Python/Jupyter (Pandas) → Excel → Power BI
 
 ---
 
