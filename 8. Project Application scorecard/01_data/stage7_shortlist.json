@@ -1,0 +1,10 @@
+[
+  "bureau_credit_score",
+  "defaults_on_file",
+  "credit_utilization_pct",
+  "total_existing_debt",
+  "months_since_last_delinquency",
+  "annual_income",
+  "enquiries_last_6m",
+  "employment_type"
+]

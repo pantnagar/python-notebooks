@@ -1,0 +1,20 @@
+{
+  "bureau_credit_score": 0.2680156928818244,
+  "defaults_on_file": 0.22457241755092622,
+  "credit_utilization_pct": 0.21322451010662594,
+  "total_existing_debt": 0.20292762505316445,
+  "months_since_last_delinquency": 0.19643583690686856,
+  "annual_income": 0.12521248264747586,
+  "enquiries_last_6m": 0.12382540379662384,
+  "employment_type": 0.11620003649437954,
+  "employment_tenure_months": 0.07742169154549669,
+  "state": 0.025613286946853733,
+  "residential_status": 0.02557107788116603,
+  "loan_purpose": 0.02552898978591522,
+  "credit_file_age_months": 0.024042132615738822,
+  "channel": 0.016721045617804794,
+  "active_credit_accounts": 0.015479949220574673,
+  "loan_amount_requested": 0.011007179631849143,
+  "age_at_2024": 0.009588820846141953,
+  "dependents": 0.003453345191070629
+}

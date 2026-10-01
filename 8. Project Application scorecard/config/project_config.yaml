@@ -1,0 +1,62 @@
+# config/project_config.yaml
+#
+# Central configuration for the MTB Personal Loan Scorecard project.
+# In a real deployment, code would READ these values (via a config loader)
+# rather than hardcoding them inline -- this file exists so every "why did
+# we choose X" constant lives in one place, not scattered across 5 SQL
+# scripts and 7 notebooks. In THIS project, the notebooks and SQL scripts
+# still hardcode these values directly (rewiring every script to read from
+# YAML was out of scope for a learning project) -- but this file is the
+# authoritative reference for what those hardcoded values SHOULD be, and is
+# what you'd wire up first if operationalizing this into a real pipeline.
+
+project:
+  name: "MTB Personal Loan Application Credit Scorecard"
+  fictional_bank: "Meridian Trust Bank (MTB)"
+  jurisdiction: "Australia"
+  product: "Unsecured Personal Loan"
+
+data_generation:
+  snapshot_date: "2025-09-30"
+  application_date_range:
+    start: "2023-01-01"
+    end: "2024-12-31"
+  n_customers: 6000
+  n_applications: 9000
+  random_seed: 42
+
+target_definition:
+  bad_definition: "90+ Days Past Due (DPD) at any point in the performance window"
+  performance_window_months: 18  # See CHANGELOG v0.3 -- revised from 12 after vintage analysis
+  observation_point: "application_date"
+  vintage_maturity_threshold_pct: 20  # max acceptable % of eventual bads missed by the window
+
+modeling:
+  train_test_split:
+    test_size: 0.30
+    random_state: 42
+    stratify_on: "bad_flag"
+  variable_selection:
+    iv_shortlist_threshold: 0.10       # Stage 6: minimum IV to enter Stage 7 candidate list
+    collinearity_threshold: 0.60       # Stage 7: |correlation| above which one variable is dropped
+    stepwise_pvalue_threshold: 0.05    # Stage 7: backward elimination stopping rule
+
+scorecard:
+  base_score: 600
+  base_odds: 50          # Good:Bad odds at base_score
+  pdo: 20                 # Points to Double the Odds
+  risk_bands:
+    - { label: "Decline",           quantile_lower: 0.00, quantile_upper: 0.10 }
+    - { label: "High Risk - Refer", quantile_lower: 0.10, quantile_upper: 0.30 }
+    - { label: "Standard",          quantile_lower: 0.30, quantile_upper: 0.70 }
+    - { label: "Preferred",         quantile_lower: 0.70, quantile_upper: 0.90 }
+    - { label: "Premium",           quantile_lower: 0.90, quantile_upper: 1.00 }
+
+validation:
+  psi_thresholds:
+    stable_below: 0.10
+    monitor_below: 0.25
+    # above 0.25 = significant shift, investigate/redevelop
+  performance_reference_bands:
+    gini: { weak: 0.20, acceptable: 0.40, good: 0.60 }
+    ks_x100: { weak: 20, acceptable: 40, strong: 70 }

@@ -1,0 +1,44 @@
+==============================================================================
+MTB Personal Loan Scorecard -- Pipeline Run Log
+Run ID:     20260925_183520
+Started:    2026-09-25 18:35:20
+Project:    /home/claude/MTB_Personal_Loan_Scorecard
+==============================================================================
+
+[2026-09-25 18:35:20] START  Data Cleaning & EDA (01_eda_cleaning.ipynb)
+[2026-09-25 18:35:28] SUCCESS Data Cleaning & EDA (7.7s)
+
+[2026-09-25 18:35:28] START  WOE & Binning (02_woe_binning.ipynb)
+[2026-09-25 18:35:33] SUCCESS WOE & Binning (4.9s)
+
+[2026-09-25 18:35:33] START  Information Value (03_information_value.ipynb)
+[2026-09-25 18:35:37] SUCCESS Information Value (3.7s)
+
+[2026-09-25 18:35:37] START  Logistic Regression (04_logistic_regression.ipynb)
+[2026-09-25 18:35:42] SUCCESS Logistic Regression (5.6s)
+
+[2026-09-25 18:35:42] START  Credit Scorecard Build (05_scorecard_build.ipynb)
+[2026-09-25 18:35:46] SUCCESS Credit Scorecard Build (4.2s)
+
+[2026-09-25 18:35:46] START  Model Validation & Performance (06_validation.ipynb)
+[2026-09-25 18:35:51] SUCCESS Model Validation & Performance (4.9s)
+
+[2026-09-25 18:35:51] START  Business Output (07_business_output.ipynb)
+[2026-09-25 18:35:55] SUCCESS Business Output (3.1s)
+
+==============================================================================
+RUN SUMMARY
+==============================================================================
+  [PASS] Data Cleaning & EDA                 7.7s
+  [PASS] WOE & Binning                       4.9s
+  [PASS] Information Value                   3.7s
+  [PASS] Logistic Regression                 5.6s
+  [PASS] Credit Scorecard Build              4.2s
+  [PASS] Model Validation & Performance      4.9s
+  [PASS] Business Output                     3.1s
+
+Total steps run:    7 / 7
+Total elapsed:      34.2s
+Overall result:     SUCCESS
+Finished:           2026-09-25 18:35:55
+==============================================================================
