@@ -1,0 +1,60 @@
+A500000Customer 0          655 1ARREARS 
+A500001Customer 1          820 0CLOSED  
+A500002Customer 2          564 0CLOSED  
+A500003Customer 3          612 1OPEN    
+A500004Customer 4          780 7ARREARS 
+A500005Customer 5          65611ARREARS 
+A500006Customer 6          670 1ARREARS 
+A500007Customer 7          777 3ARREARS 
+A500008Customer 8          61510ARREARS 
+A500009Customer 9          548 6ARREARS 
+A500010Customer 10         555 5OPEN    
+A500011Customer 11         732 5OPEN    
+A500012Customer 12         703 1OPEN    
+A500013Customer 13         618 2ARREARS 
+A500014Customer 14         57611ARREARS 
+A500015Customer 15         656 7ARREARS 
+A500016Customer 16         780 3ARREARS 
+A500017Customer 17         60511OPEN    
+A500018Customer 18         620 4OPEN    
+A500019Customer 19         573 1OPEN    
+A500020Customer 20         64711OPEN    
+A500021Customer 21         710 7ARREARS 
+A500022Customer 22         870 9CLOSED  
+A500023Customer 23         700 0CLOSED  
+A500024Customer 24         675 3ARREARS 
+A500025Customer 25         75811OPEN    
+A500026Customer 26         743 1ARREARS 
+A500027Customer 27         62810ARREARS 
+A500028Customer 28         887 9CLOSED  
+A500029Customer 29         678 4OPEN    
+A500030Customer 30         70110ARREARS 
+A500031Customer 31         73011CLOSED  
+A500032Customer 32         71110OPEN    
+A500033Customer 33         817 4OPEN    
+A500034Customer 34         627 7OPEN    
+A500035Customer 35         751 3CLOSED  
+A500036Customer 36         695 1OPEN    
+A500037Customer 37         76810OPEN    
+A500038Customer 38         66111CLOSED  
+A500039Customer 39         648 0OPEN    
+A500040Customer 40         746 8OPEN    
+A500041Customer 41         71211OPEN    
+A500042Customer 42         606 7CLOSED  
+A500043Customer 43         801 0ARREARS 
+A500044Customer 44         746 0ARREARS 
+A500045Customer 45         673 6OPEN    
+A500046Customer 46         63811OPEN    
+A500047Customer 47         713 3CLOSED  
+A500048Customer 48         739 4CLOSED  
+A500049Customer 49         537 9ARREARS 
+A500050Customer 50         714 9OPEN    
+A500051Customer 51         73911CLOSED  
+A500052Customer 52         46810OPEN    
+A500053Customer 53         698 7ARREARS 
+A500054Customer 54         74311CLOSED  
+A500055Customer 55         732 7OPEN    
+A500056Customer 56         752 7CLOSED  
+A500057Customer 57         651 0ARREARS 
+A500058Customer 58         586 5ARREARS 
+A500059Customer 59         518 0OPEN    

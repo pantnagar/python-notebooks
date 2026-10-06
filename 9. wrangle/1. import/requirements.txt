@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy
+openpyxl
+sqlalchemy>=2.0
+requests
+pyarrow
+lxml
+ipykernel
+# later, for real SQL Server / Azure work (not needed for this notebook):
+# pyodbc
+# azure-storage-blob
+# adlfs
+# azure-identity

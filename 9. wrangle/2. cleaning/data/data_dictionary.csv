@@ -1,0 +1,16 @@
+column,description,type,rule
+app_id,"Unique application ID, format APP-####",text,unique; matches ^APP-\d{4}$
+customer_id,"Customer ID, format CUS-####. A customer can have several applications",text,matches ^CUS-\d{4}$
+applicant_info,Applicant name and date of birth,text,name | YYYY-MM-DD
+application_date,Date the application was lodged,date,between 2023-01-01 and 2025-06-30
+age,Applicant age in whole years on the application date,integer,18-100; must agree with dob and application_date
+state,Applicant's Australian state/territory,category,"one of NSW, VIC, QLD, WA, SA, TAS, ACT, NT"
+product,Product applied for,category,Credit Card | Personal Loan
+employment_status,Employment status at application,category,"Full-time, Part-time, Casual, Self-employed, Retired, Unemployed (or Unknown if not provided)"
+annual_income,"Gross annual income, AUD, per year",number,> 0 (blank/0/-1 are NOT valid values: they mean 'not provided')
+requested_amount,"Limit or loan amount requested, AUD",number,> 0
+approved_amount,"Limit or loan amount approved, AUD",number,> 0 and <= requested_amount
+term,Loan term. Not applicable to credit cards,text,loans only; stored as months in clean data (term_months)
+bureau_score,Credit bureau score at application,integer,300-900
+dpd_m1 ... dpd_m6,Days past due in months-on-book 1 to 6,integer,0 or more
+default_flag,Default indicator,0/1,"1 if ANY dpd_m1..dpd_m6 >= 90, else 0"
