@@ -1,0 +1,270 @@
+Folder inventory
+Generated: 2026-10-06T18:39:13.3221598+05:30
+Root: E:\Python\Claude.worktrees\folder-log-file-creation
+
+[.] (1 file(s))
+  - generate_folder_log.py
+
+[1. Basics] (28 file(s))
+  - 01_summary.ipynb
+  - 02_strings_deep_practice.ipynb
+  - 03_lists_deep_practice.ipynb
+  - 04_dicts_deep_practice.ipynb
+  - 05_tuples_deep_practice.ipynb
+  - 06_sets_deep_practice.ipynb
+  - 07_comprehensions_deep_practice.ipynb
+  - 08_mixed_review_all_datatypes.ipynb
+  - 09_operators_conditionals_practice.ipynb
+  - 10_loops_deep_practice.ipynb
+  - 11_functions_deep_practice.ipynb
+  - 12_final_test_and_miniproject.ipynb
+  - 13_final_test2_and_miniproject2.ipynb
+  - 14_file_io_csv_practice.ipynb
+  - 15_exception_handling_practice.ipynb
+  - 16_modules_dates_practice.ipynb
+  - 17_oop_classes_objects.ipynb
+  - 18_oop_encapsulation_static.ipynb
+  - 19_oop_inheritance_polymorphism.ipynb
+  - 20_oop_abstraction.ipynb
+  - 21_oop_capstone_project.ipynb
+  - 22_regex_practice.ipynb
+  - 23_iterators_generators_practice.ipynb
+  - 24_statistics_fundamentals.ipynb
+  - numpy_advanced.ipynb
+  - numpy_fundamentals.ipynb
+  - numpy_mini_project.ipynb
+  - numpy_tips_and_tricks.ipynb
+
+[2. Pandas] (0 file(s))
+  - (no files)
+
+[2. Pandas/1] (4 file(s))
+  - loan_applications.csv
+  - loan_applications.xlsx
+  - pandas_phase0_foundations.ipynb
+  - pandas_phase1_ingestion_inspection.ipynb
+
+[2. Pandas/2] (3 file(s))
+  - loan_applications_raw.csv
+  - pandas_phase2_selection_filtering no dataset.ipynb
+  - pandas_phase3_cleaning_preprocessing.ipynb
+
+[2. Pandas/4 5] (2 file(s))
+  - pandas_phase4_transformation_feature_engineering.ipynb
+  - pandas_phase5_aggregation_grouping.ipynb
+
+[2. Pandas/6] (5 file(s))
+  - credit_bureau.csv
+  - loan_batch_feb.csv
+  - loan_batch_jan.csv
+  - loan_batch_mar.csv
+  - pandas_phase6_merging_dates.ipynb
+
+[2. Pandas/7 and 8] (3 file(s))
+  - daily_portfolio_metrics.csv
+  - pandas_phase7_reshaping_binning_groupby.ipynb
+  - pandas_phase8_timeseries_text_outliers_export.ipynb
+
+[2. Pandas/9 data wrangle] (2 file(s))
+  - data_wrangling_gather_assess_clean.ipynb
+  - loan_applications_wrangle.csv
+
+[3 other] (14 file(s))
+  - matplotlib_mini_project_executive_report.ipynb
+  - matplotlib_phase1_foundations.ipynb
+  - matplotlib_phase2_distribution_outliers.ipynb
+  - matplotlib_phase3_categorical_bivariate.ipynb
+  - matplotlib_phase4_advanced_layouts.ipynb
+  - Receipt_pay_SmBUpmUkrJ57PL_from_UI_Cardio_Paidp_260507_002548.pdf
+  - seaborn_mini_project_full_report.ipynb
+  - seaborn_phase1_upgraded_canvas.ipynb
+  - seaborn_phase2_distributions.ipynb
+  - seaborn_phase3_categorical_comparisons.ipynb
+  - seaborn_phase4_bivariate_relationships.ipynb
+  - seaborn_phase5_matrix_plots.ipynb
+  - seaborn_phase6_small_multiples.ipynb
+  - seaborn_phase7_final_toolkit.ipynb
+
+[4. campusx] (0 file(s))
+  - (no files)
+
+[4. campusx/Matplotlib] (9 file(s))
+  - batsman_season_record.csv
+  - batter.csv
+  - big-array.npy
+  - fours-sixes.csv
+  - gayle-175.csv
+  - session_23_matplotlib.ipynb
+  - session_24_advanced_matplotlib.ipynb
+  - sharma-kohli.csv
+  - vk.csv
+
+[4. campusx/Plotly] (2 file(s))
+  - notebook1f43313be3.ipynb
+  - session_on_plotly.ipynb
+
+[4. campusx/session 28] (7 file(s))
+  - adverse_reactions.csv
+  - Data Wrangling.ipynb
+  - patients.csv
+  - README.md
+  - treatments.csv
+  - treatments_cut.csv
+  - wrangling.ipynb
+
+[5. Cleaning] (12 file(s))
+  - accounts.csv
+  - applications.xlsx
+  - branch_lookup.txt
+  - bureau_data.json
+  - customers.csv
+  - customers_dup_source.csv
+  - MNB_Credit_Risk_Analysis_Notebook.ipynb
+  - MNB_Data_Analysis_Workbook.docx
+  - mnb_portfolio.db
+  - monthly_performance.csv
+  - payments.txt
+  - README.md
+
+[6. MTB_Personal_Loan_Scorecard] (1 file(s))
+  - 00_README.md
+
+[6. MTB_Personal_Loan_Scorecard/01_data] (1 file(s))
+  - data_dictionary.xlsx
+
+[6. MTB_Personal_Loan_Scorecard/01_data/raw_csv] (6 file(s))
+  - bureau_data.csv
+  - customer_details.csv
+  - loan_applications.csv
+  - loan_performance.csv
+  - modeling_dataset.csv
+  - transactions.csv
+
+[6. MTB_Personal_Loan_Scorecard/02_sql] (5 file(s))
+  - 01_create_tables.sql
+  - 02_bulk_insert_csvs.sql
+  - 03_data_quality_checks.sql
+  - 04_merge_and_target.sql
+  - 05_vintage_analysis.sql
+
+[6. MTB_Personal_Loan_Scorecard/03_notebooks] (1 file(s))
+  - 01_eda_cleaning.ipynb
+
+[7. Mini pipeline] (1 file(s))
+  - connect.ipynb
+
+[8. Project Application scorecard] (5 file(s))
+  - 00_README.md
+  - CHANGELOG.md
+  - Project_Explainer_and_Run_Guide.pdf
+  - README.md
+  - requirements.txt
+
+[8. Project Application scorecard/01_data] (6 file(s))
+  - data_dictionary.xlsx
+  - final_coarse_bins.json
+  - stage7_iv_lookup.json
+  - stage7_model_artifacts.pkl
+  - stage7_shortlist.json
+  - stage8_scorecard.json
+
+[8. Project Application scorecard/01_data/raw_csv] (10 file(s))
+  - bureau_data.csv
+  - customer_details.csv
+  - loan_applications.csv
+  - loan_performance.csv
+  - modeling_dataset.csv
+  - test_scored.csv
+  - test_scored_final.csv
+  - train_scored.csv
+  - train_scored_final.csv
+  - transactions.csv
+
+[8. Project Application scorecard/02_sql] (5 file(s))
+  - 01_create_tables.sql
+  - 02_bulk_insert_csvs.sql
+  - 03_data_quality_checks.sql
+  - 04_merge_and_target.sql
+  - 05_vintage_analysis.sql
+
+[8. Project Application scorecard/03_notebooks] (7 file(s))
+  - 01_eda_cleaning.ipynb
+  - 02_woe_binning.ipynb
+  - 03_information_value.ipynb
+  - 04_logistic_regression.ipynb
+  - 05_scorecard_build.ipynb
+  - 06_validation.ipynb
+  - 07_business_output.ipynb
+
+[8. Project Application scorecard/04_excel] (2 file(s))
+  - scorecard_summary.xlsx
+  - scorecard_table_export.csv
+
+[8. Project Application scorecard/05_powerbi] (1 file(s))
+  - powerbi_data_model_guide.md
+
+[8. Project Application scorecard/06_deliverables] (5 file(s))
+  - final_scorecard.json
+  - final_scored_applications.csv
+  - model_performance_report.md
+  - Project_Explainer_and_Run_Guide.pdf
+  - workflow_diagram.md
+
+[8. Project Application scorecard/config] (1 file(s))
+  - project_config.yaml
+
+[8. Project Application scorecard/docs] (1 file(s))
+  - architecture.md
+
+[8. Project Application scorecard/logs] (3 file(s))
+  - pipeline_run_20260925_095928.log
+  - pipeline_run_20260925_183244.log
+  - pipeline_run_20260925_183520.log
+
+[8. Project Application scorecard/src] (2 file(s))
+  - generate_data.py
+  - run_pipeline.py
+
+[8. Project Application scorecard/tests] (1 file(s))
+  - test_pipeline_outputs.py
+
+[9. wrangle] (1 file(s))
+  - 3. EDA intro.ipynb
+
+[9. wrangle/1. import] (5 file(s))
+  - make_data.py
+  - mock_api.py
+  - pandas_data_import_practice.ipynb
+  - README.md
+  - requirements.txt
+
+[9. wrangle/1. import/data] (9 file(s))
+  - bureau_report_fixed_width.txt
+  - credit_accounts.csv
+  - credit_accounts_messy.csv
+  - credit_risk.db
+  - customers.jsonl
+  - customers_flat.json
+  - customers_nested.json
+  - portfolio_report.xlsx
+  - repayments_pipe.txt
+
+[9. wrangle/1. import/solutions] (1 file(s))
+  - pandas_data_import_SOLUTIONS.ipynb
+
+[9. wrangle/2. cleaning] (3 file(s))
+  - data_assessing_and_cleaning_casebook.ipynb
+  - README.md
+  - requirements.txt
+
+[9. wrangle/2. cleaning/data] (3 file(s))
+  - data_dictionary.csv
+  - loan_applications_raw.csv
+  - loan_applications_raw.xlsx
+
+[9. wrangle/2. cleaning/solutions] (5 file(s))
+  - answer_key.json
+  - make_case_data.py
+  - SOLUTIONS_casebook.ipynb
+  - truth_applications.csv
+  - truth_customers.csv
